@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112AB6932A4859A600AD8FCB /* test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AB6922A4859A600AD8FCB /* test1.swift */; };
+		115CE5732A45D36400AD918A /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115CE5722A45D36400AD918A /* ChatViewModel.swift */; };
+		117E4F5A2A48286B00501DB6 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117E4F592A48286B00501DB6 /* test.swift */; };
+		1184A6142A432A4F00924DC6 /* kakaoChatListViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184A6132A432A4F00924DC6 /* kakaoChatListViewApp.swift */; };
+		1184A6162A432A4F00924DC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184A6152A432A4F00924DC6 /* ContentView.swift */; };
+		1184A6182A432A5000924DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1184A6172A432A5000924DC6 /* Assets.xcassets */; };
+		1184A61B2A432A5000924DC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1184A61A2A432A5000924DC6 /* Preview Assets.xcassets */; };
+		1185015F2A49D1E00012125B /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1185015E2A49D1E00012125B /* test2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1184A6212A432A5000924DC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1184A6082A432A4F00924DC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1184A60F2A432A4F00924DC6;
+			remoteInfo = kakaoChatListView;
+		};
+		1184A62B2A432A5000924DC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1184A6082A432A4F00924DC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1184A60F2A432A4F00924DC6;
+			remoteInfo = kakaoChatListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112AB6922A4859A600AD8FCB /* test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1.swift; sourceTree = "<group>"; };
+		115CE5722A45D36400AD918A /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		117E4F592A48286B00501DB6 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		1184A6102A432A4F00924DC6 /* kakaoChatListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kakaoChatListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1184A6132A432A4F00924DC6 /* kakaoChatListViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakaoChatListViewApp.swift; sourceTree = "<group>"; };
+		1184A6152A432A4F00924DC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1184A6172A432A5000924DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1184A61A2A432A5000924DC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1184A6202A432A5000924DC6 /* kakaoChatListViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakaoChatListViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1184A62A2A432A5000924DC6 /* kakaoChatListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakaoChatListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1185015E2A49D1E00012125B /* test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1184A60D2A432A4F00924DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1184A61D2A432A5000924DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1184A6272A432A5000924DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1184A6072A432A4F00924DC6 = {
+			isa = PBXGroup;
+			children = (
+				1184A6122A432A4F00924DC6 /* kakaoChatListView */,
+				1184A6112A432A4F00924DC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1184A6112A432A4F00924DC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1184A6102A432A4F00924DC6 /* kakaoChatListView.app */,
+				1184A6202A432A5000924DC6 /* kakaoChatListViewTests.xctest */,
+				1184A62A2A432A5000924DC6 /* kakaoChatListViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1184A6122A432A4F00924DC6 /* kakaoChatListView */ = {
+			isa = PBXGroup;
+			children = (
+				1184A6132A432A4F00924DC6 /* kakaoChatListViewApp.swift */,
+				1184A6152A432A4F00924DC6 /* ContentView.swift */,
+				115CE5722A45D36400AD918A /* ChatViewModel.swift */,
+				117E4F592A48286B00501DB6 /* test.swift */,
+				112AB6922A4859A600AD8FCB /* test1.swift */,
+				1185015E2A49D1E00012125B /* test2.swift */,
+				1184A6172A432A5000924DC6 /* Assets.xcassets */,
+				1184A6192A432A5000924DC6 /* Preview Content */,
+			);
+			path = kakaoChatListView;
+			sourceTree = "<group>";
+		};
+		1184A6192A432A5000924DC6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1184A61A2A432A5000924DC6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1184A60F2A432A4F00924DC6 /* kakaoChatListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1184A6342A432A5000924DC6 /* Build configuration list for PBXNativeTarget "kakaoChatListView" */;
+			buildPhases = (
+				1184A60C2A432A4F00924DC6 /* Sources */,
+				1184A60D2A432A4F00924DC6 /* Frameworks */,
+				1184A60E2A432A4F00924DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kakaoChatListView;
+			productName = kakaoChatListView;
+			productReference = 1184A6102A432A4F00924DC6 /* kakaoChatListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1184A61F2A432A5000924DC6 /* kakaoChatListViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1184A6372A432A5000924DC6 /* Build configuration list for PBXNativeTarget "kakaoChatListViewTests" */;
+			buildPhases = (
+				1184A61C2A432A5000924DC6 /* Sources */,
+				1184A61D2A432A5000924DC6 /* Frameworks */,
+				1184A61E2A432A5000924DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1184A6222A432A5000924DC6 /* PBXTargetDependency */,
+			);
+			name = kakaoChatListViewTests;
+			productName = kakaoChatListViewTests;
+			productReference = 1184A6202A432A5000924DC6 /* kakaoChatListViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1184A6292A432A5000924DC6 /* kakaoChatListViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1184A63A2A432A5000924DC6 /* Build configuration list for PBXNativeTarget "kakaoChatListViewUITests" */;
+			buildPhases = (
+				1184A6262A432A5000924DC6 /* Sources */,
+				1184A6272A432A5000924DC6 /* Frameworks */,
+				1184A6282A432A5000924DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1184A62C2A432A5000924DC6 /* PBXTargetDependency */,
+			);
+			name = kakaoChatListViewUITests;
+			productName = kakaoChatListViewUITests;
+			productReference = 1184A62A2A432A5000924DC6 /* kakaoChatListViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1184A6082A432A4F00924DC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1184A60F2A432A4F00924DC6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					1184A61F2A432A5000924DC6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1184A60F2A432A4F00924DC6;
+					};
+					1184A6292A432A5000924DC6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 1184A60F2A432A4F00924DC6;
+					};
+				};
+			};
+			buildConfigurationList = 1184A60B2A432A4F00924DC6 /* Build configuration list for PBXProject "kakaoChatListView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1184A6072A432A4F00924DC6;
+			productRefGroup = 1184A6112A432A4F00924DC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1184A60F2A432A4F00924DC6 /* kakaoChatListView */,
+				1184A61F2A432A5000924DC6 /* kakaoChatListViewTests */,
+				1184A6292A432A5000924DC6 /* kakaoChatListViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1184A60E2A432A4F00924DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1184A61B2A432A5000924DC6 /* Preview Assets.xcassets in Resources */,
+				1184A6182A432A5000924DC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1184A61E2A432A5000924DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1184A6282A432A5000924DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1184A60C2A432A4F00924DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1184A6162A432A4F00924DC6 /* ContentView.swift in Sources */,
+				117E4F5A2A48286B00501DB6 /* test.swift in Sources */,
+				112AB6932A4859A600AD8FCB /* test1.swift in Sources */,
+				115CE5732A45D36400AD918A /* ChatViewModel.swift in Sources */,
+				1185015F2A49D1E00012125B /* test2.swift in Sources */,
+				1184A6142A432A4F00924DC6 /* kakaoChatListViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1184A61C2A432A5000924DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1184A6262A432A5000924DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1184A6222A432A5000924DC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1184A60F2A432A4F00924DC6 /* kakaoChatListView */;
+			targetProxy = 1184A6212A432A5000924DC6 /* PBXContainerItemProxy */;
+		};
+		1184A62C2A432A5000924DC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1184A60F2A432A4F00924DC6 /* kakaoChatListView */;
+			targetProxy = 1184A62B2A432A5000924DC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1184A6322A432A5000924DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1184A6332A432A5000924DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1184A6352A432A5000924DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kakaoChatListView/Preview Content\"";
+				DEVELOPMENT_TEAM = YD9645CQWQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oz.kakaoChatListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1184A6362A432A5000924DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kakaoChatListView/Preview Content\"";
+				DEVELOPMENT_TEAM = YD9645CQWQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oz.kakaoChatListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1184A6382A432A5000924DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD9645CQWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oz.kakaoChatListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kakaoChatListView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kakaoChatListView";
+			};
+			name = Debug;
+		};
+		1184A6392A432A5000924DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD9645CQWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oz.kakaoChatListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kakaoChatListView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kakaoChatListView";
+			};
+			name = Release;
+		};
+		1184A63B2A432A5000924DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD9645CQWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oz.kakaoChatListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kakaoChatListView;
+			};
+			name = Debug;
+		};
+		1184A63C2A432A5000924DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YD9645CQWQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Oz.kakaoChatListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kakaoChatListView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1184A60B2A432A4F00924DC6 /* Build configuration list for PBXProject "kakaoChatListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1184A6322A432A5000924DC6 /* Debug */,
+				1184A6332A432A5000924DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1184A6342A432A5000924DC6 /* Build configuration list for PBXNativeTarget "kakaoChatListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1184A6352A432A5000924DC6 /* Debug */,
+				1184A6362A432A5000924DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1184A6372A432A5000924DC6 /* Build configuration list for PBXNativeTarget "kakaoChatListViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1184A6382A432A5000924DC6 /* Debug */,
+				1184A6392A432A5000924DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1184A63A2A432A5000924DC6 /* Build configuration list for PBXNativeTarget "kakaoChatListViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1184A63B2A432A5000924DC6 /* Debug */,
+				1184A63C2A432A5000924DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1184A6082A432A4F00924DC6 /* Project object */;
+}
